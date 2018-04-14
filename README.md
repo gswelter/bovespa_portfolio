@@ -3,7 +3,7 @@
 
 ## Getting the data
 
-There are extra *Jupyter notebooks* explaining how to download and prepare the datasets. 
+There are separated *Jupyter notebooks* explaining how to download and prepare the datasets. 
 
 **Data preparation**
  - Obtaining *Yahoo! Finance* historical quotes

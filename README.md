@@ -1,6 +1,9 @@
 # Bovespa stocks portfolio
 
 
+Elaborate a stock Porfolio based on historical data, free available, data.
+
+
 ## Getting the data
 
 There are separated *Jupyter notebooks* explaining how to download and prepare the datasets.

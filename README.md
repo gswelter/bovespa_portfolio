@@ -1,29 +1,34 @@
 # Bovespa stocks portfolio
 
 
-list:
-[x] gragar
-[ ] graga
-[x] ths
-[ ] graegaha
-
-
 ## Getting the data
 
-There are separated *Jupyter notebooks* explaining how to download and prepare the datasets. 
+There are separated *Jupyter notebooks* explaining how to download and prepare the datasets. (*Main texts are in Portuguese but codes/comments are in English.*)
+
 
 **Data preparation**
  - Obtaining *Yahoo! Finance* historical quotes
-   - [Jupyter notebook: downloading Bovespa stocks](./bovespa_stocks_download.ipynb) (*main text is in Portuguese but codes/comments are in English*)
- - Data cleansing
-   - pre-processing [Jupyter notebook: pre-processing](./bovespa_stocks_download.ipynb)
-   - post-processing
-     - [Jupyter notebook: outlier removal](./bovespa_stocks_)
-     - [Jupyter notebook: missing valuesl](./bovespa_stocks_)
+   - [Jupyter notebook: downloading Bovespa stocks](./bovespa_stocks_download.ipynb) 
+ - Data cleansing 
+   - pre-processing [Jupyter notebook: pre-processing](./bovespa_stocks_preprocessing.ipynb)
 
-## Data exploration
 
-Soon.
+## Portfolio via convex optimization of expected Sharpe Ratio
+
+The objective is to elaborate a portfolio with good performance using a reduced number of stocks from the available list.
+
+**Expected results:**
+- improved (average) performance on the long run
+- high volatility due to small number of stocks composing the portfolio
+
+
+See the [Jupyter notebook](./bovespa_stocks_portfolio.ipynb) presenting the whole procedure.
+
+
+## Portfolio optimization based on supervided-learning
+
+In preparation.
+
 
 
 

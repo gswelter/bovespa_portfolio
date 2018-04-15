@@ -1,6 +1,13 @@
 # Bovespa stocks portfolio
 
 
+list:
+[x] gragar
+[ ] graga
+[x] ths
+[ ] graegaha
+
+
 ## Getting the data
 
 There are separated *Jupyter notebooks* explaining how to download and prepare the datasets. 

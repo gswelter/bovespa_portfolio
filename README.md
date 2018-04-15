@@ -1,6 +1,6 @@
 # Bovespa stocks portfolio
 
-** *Objective:* ** Elaborate a stock Porfolio based on historical data.
+**Objectives:** Elaborate a stock Porfolio based on historical data.
 
 
 ## Getting the data

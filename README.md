@@ -3,8 +3,9 @@
 
 ## Getting the data
 
-There are separated *Jupyter notebooks* explaining how to download and prepare the datasets. (*Main texts are in Portuguese but codes/comments are in English.*)
+There are separated *Jupyter notebooks* explaining how to download and prepare the datasets.
 
+*Main texts are in Portuguese but codes/comments are in English.*
 
 **Data preparation**
  - Obtaining *Yahoo! Finance* historical quotes
@@ -17,17 +18,24 @@ There are separated *Jupyter notebooks* explaining how to download and prepare t
 
 The objective is to elaborate a portfolio with good performance using a reduced number of stocks from the available list.
 
-**Expected results:**
-- improved (average) performance on the long run
-- high volatility due to small number of stocks composing the portfolio
+For each month, a stock portfolio is elaborated based on the Sharpe Ratio of log-return from the previous months. Portfolio performance is compared with three benchmarks:
+- iBovespa: the official Index of Bovespa (composed of +60 stocks)
+- Avg. BVSP: the simple average of all available stocks of iBovespa
+- Dolar: The current value of USD Dolars in Brazilian Reais
+	    
+
+*Expected results:*
+- Improved (average) performance on the long run
+- High volatility due to small number of stocks composing the portfolio
 
 
-See the [Jupyter notebook](./bovespa_stocks_portfolio.ipynb) presenting the whole procedure.
+**See the [Jupyter notebook](./bovespa_stocks_portfolio.ipynb) presenting the whole procedure.**
 
 
 ## Portfolio optimization based on supervided-learning
 
-In preparation.
+*In preparation.*
+
 
 
 

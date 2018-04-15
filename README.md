@@ -32,7 +32,7 @@ For each month, a stock portfolio is elaborated based on the Sharpe Ratio of log
 **See the [Jupyter notebook](./bovespa_stocks_portfolio.ipynb) presenting the whole procedure.**
 
 
-## Portfolio optimization based on supervided-learning
+## Portfolio optimization based on supervised-learning
 
 *In preparation.*
 
